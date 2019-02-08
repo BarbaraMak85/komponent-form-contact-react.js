@@ -1,0 +1,20 @@
+{
+    "name": "komponent-form-contact-react",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node --version",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BarbaraMak85/komponent-form-contact-react.js.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/BarbaraMak85/komponent-form-contact-react.js/issues"
+    },
+    "homepage": "https://github.com/BarbaraMak85/komponent-form-contact-react.js#readme"
+}
