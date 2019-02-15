@@ -16,5 +16,8 @@
     "bugs": {
         "url": "https://github.com/BarbaraMak85/komponent-form-contact-react.js/issues"
     },
-    "homepage": "https://github.com/BarbaraMak85/komponent-form-contact-react.js#readme"
+    "homepage": "https://github.com/BarbaraMak85/komponent-form-contact-react.js#readme",
+    "dependencies": {
+        "babel-standalone": "^6.26.0"
+    }
 }
