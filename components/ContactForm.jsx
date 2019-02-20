@@ -1,17 +1,17 @@
-var ContactForm extends React.Component {
-    propTypes: {
-        contact: React.PropTypes.object.isRequired
-    },
+class ContactForm extends React.Component{
+   
+    constructor(props){
+        super(props)
+    }
 
-    render: function() {
-        console.log(this.props)
+    render () {
         return (
             <form className="contactForm">
                 <input type="text" placeholder="Imię" value={this.props.contact.firstName}/>
                 <input type="text" placeholder="Nazwisko" value={this.props.contact.lastName}/>
+                <input type="text" placeholder="Email" value={this.props.contact.email}/>
+                <button type="submit">Dodaj kontakt</button>
 
-        
-            
             </form>
             // React.createElement('form', { className: 'contactForm' },
             //     React.createElement('input', {
@@ -32,5 +32,5 @@ var ContactForm extends React.Component {
             //     React.createElement('button', { type: 'submit' }, "Dodaj kontakt")
             // )
         )
-    },
+    }
 }
